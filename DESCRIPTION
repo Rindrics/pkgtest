@@ -20,4 +20,5 @@ Imports:
     magrittr,
     captioner,
     ggplot2,
-    dplyr
+    dplyr,
+    devtools
