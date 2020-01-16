@@ -10,5 +10,4 @@ deploy:
   skip_cleanup: true
   on:
     tags: false
-    repo: akirinrin/pkgtest
     branch: master
