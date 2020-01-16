@@ -3,7 +3,7 @@
 language: R
 warnings_are_errors: false
 cache: packages;
-script
+script:
   - Rscript -e 'rmarkdown::render("vignettes/paper.Rmd")'
 deploy:
   provider: releases
