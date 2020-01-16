@@ -18,7 +18,7 @@ knitr::opts_chunk$set(
 library(ggplot2)
 library(dplyr)
 devtools::load_all(".")
-data(my_iris, package = "pkgtest")
+data(my_iris)
 table_nums <- captioner::captioner(prefix = "Table")
 table_cap  <- table_nums(name = "iristable", 
                          caption = "Summary of iris data")
