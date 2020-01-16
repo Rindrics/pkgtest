@@ -10,5 +10,5 @@ deploy:
   skip_cleanup: true
   on:
     tags: false
-    rego: akirinrin/pkgtest
+    repo: akirinrin/pkgtest
     branch: master
