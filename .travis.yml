@@ -9,5 +9,6 @@ deploy:
   file: "vignettes/paper.html"
   skip_cleanup: true
   on:
-    tags: true
+    tags: false
+    akikirinrin/pkgtest
     branch: master
